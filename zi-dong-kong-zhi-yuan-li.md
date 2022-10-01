@@ -86,4 +86,23 @@ $$
 
 欠阻尼二阶系统的动态性能指标
 
-上升时间$t\__r=\frac{\pi-\beta}{w\_d_}=_\frac{\pi-\beta}{w\_n\sqrt{1-\zeta^2}_}$
+上升时间$t_r=\frac{\pi-\beta}{w_d}=\frac{\pi-\beta}{w_n\sqrt{1-\zeta^2}}$
+峰值时间$t_p=\frac{\pi}{w_d}=\frac{\pi}{w_n\sqrt{1-\zeta^2}}$
+最大超调量$\sigma\%=exp(-\pi\zeta/\sqrt{1-\zeta^2})$
+调节时间$t_s\approx t_s'=\frac{1}{\zeta w_n}ln\frac{1}{\bigtriangleup\sqrt{1-\zeta^2}};\bigtriangleup=0.05,t_s\approx\frac{3}{\zeta w_n};\bigtriangleup=0.02,t_s\approx\frac{4}{\zeta w_n}$
+
+过阻尼二阶系统的调节时间比较长，因此设计系统总希望系统处于欠阻尼状态
+
+当传递函数有零点$-z=-\frac{1}{\tau}$时
+
+$$
+\Phi(s)=\frac{1}{T^2s^2+2\zeta Ts+1}+\tau\cdot \frac{s}{T^2s^2+2\zeta Ts+1} \\
+c(t)=c_1(t)+\tau d\frac{c_2(t)}{dt} \\
+t_s=(4+ln\frac{|s_1|}{z})\frac{1}{\zeta w_n},\bigtriangleup=0.02 \\
+t_s=(3+ln\frac{|s_1|}{z})\frac{1}{\zeta w_n},\bigtriangleup=0.05
+$$
+
+带有比例加微分环节的二阶系统分析一般就是对有零点的二阶系统的分析
+
+
+

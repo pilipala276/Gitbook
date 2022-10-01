@@ -57,7 +57,7 @@ $$
 忽略K,对阶跃响应
 
 $$
-C(s)=\Phi(s)R(s)=\frac{1}{Ts+s}\cdot\frac{1}{s}=\frac{1}{s}-\frac{1}{s+\frac{1}{T}}\\c(t)=\mathscr{L}^{-1}[C(s)]=(1-e^{-t/T})\cdot1(t)\\瞬态响应c_t(t)=-e^{-t/T}\cdot1(t)\\稳态响应c_{ss}(t)=1(t)
+C(s)=\Phi(s)R(s)=\frac{1}{Ts+s}\cdot\frac{1}{s}=\frac{1}{s}-\frac{1}{s+\frac{1}{T}} \\ c(t)=\mathscr{L}^{-1}[C(s)]=(1-e^{-t/T})\cdot1(t) \\ 瞬态响应c_t(t)=-e^{-t/T}\cdot1(t) \\ 稳态响应c_{ss}(t)=1(t)
 $$
 
 ​一阶系统的动态性能指标：过程过渡时间$$t_s=3T$$
@@ -67,12 +67,12 @@ $$
 若自动控制系统的传递函数分母阶次为2，则称为二阶系统，假设其闭环传递函数为
 
 $$
-\Phi(s)=\frac{K}{T^2s^2+2\zeta Ts+1}\\或写为\Phi(s)=\frac{w_n^2}{s^2+2\zeta w_ns+w_n^2}
+\Phi(s)=\frac{K}{T^2s^2+2\zeta Ts+1} \\ 或写为\Phi(s)=\frac{w_n^2}{s^2+2\zeta w_ns+w_n^2}
 $$
 
 ​对阶跃响应：
 
 $$
-C(s)=\frac{1}{s}-\frac{s+2\zeta w_n}{s^2+2\zeta w_ns+w_n^2}\\c_ss(t)=1\\c_t(t)=\mathscr{L}^{-1}[-\frac{s+2\zeta w_n}{s^2+2\zeta w_ns+w_n^2}]
+C(s)=\frac{1}{s}-\frac{s+2\zeta w_n}{s^2+2\zeta w_ns+w_n^2} \\ c_ss(t)=1 \\ c_t(t)=\mathscr{L}^{-1}[-\frac{s+2\zeta w_n}{s^2+2\zeta w_ns+w_n^2}]
 $$
 

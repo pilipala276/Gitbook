@@ -81,5 +81,6 @@ $$
 当$\zeta$取不同的值时
 
 $$
-\zeta=0,c_t=-cosw_nt \\ 0<\zeta<1,c_t(t)=-\frac{1}{\sqrt{1-\zeta^2}}e^{-\zeta }
+\zeta=0,c_t=-cosw_nt \\ 0<\zeta<1,c_t(t)=-\frac{1}{\sqrt{1-\zeta^2}}e^{-\zeta w_nt}sin(w_n\sqrt{1-\zeta^2}t+arctan\frac{\sqrt{1-\zeta^2}}{\zeta})=-\frac{1}{\sqrt{1-\zeta^2}}e^{-\zeta w_nt}sin(w_dt+\beta) \\ \zeta=1,c_t(t)=-(1+\frac{t}{T}e^{-t/T}) \\ \zeta>1,c_t(t)=-\frac{-\zeta+\sqrt{\zeta^2-1}}{2\sqrt{\zeta^2-1}}exp[-(\zeta+\sqrt{\zeta^2-1})t/T]+\frac{-\zeta-\sqrt{\zeta^2-1}}{2\sqrt{\zeta^2-1}}exp[-(\zeta-\sqrt{\zeta^2-1})t/T]
 $$
+

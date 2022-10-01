@@ -60,7 +60,7 @@ $$
 C(s)=\Phi(s)R(s)=\frac{1}{Ts+s}\cdot\frac{1}{s}=\frac{1}{s}-\frac{1}{s+\frac{1}{T}} \\ c(t)=\mathscr{L}^{-1}[C(s)]=(1-e^{-t/T})\cdot1(t) \\ 瞬态响应c_t(t)=-e^{-t/T}\cdot1(t) \\ 稳态响应c_{ss}(t)=1(t)
 $$
 
-​一阶系统的动态性能指标：过程过渡时间$t_s=3T$
+​一阶系统的动态性能指标：过程过渡时间$t\_s=3T$
 
 ### 二阶系统的动态性能指标
 
@@ -84,3 +84,6 @@ $$
 \zeta=0,c_t=-cosw_nt \\ 0<\zeta<1,c_t(t)=-\frac{1}{\sqrt{1-\zeta^2}}e^{-\zeta w_nt}sin(w_n\sqrt{1-\zeta^2}t+arctan\frac{\sqrt{1-\zeta^2}}{\zeta})=-\frac{1}{\sqrt{1-\zeta^2}}e^{-\zeta w_nt}sin(w_dt+\beta) \\ \zeta=1,c_t(t)=-(1+\frac{t}{T}e^{-t/T}) \\ \zeta>1,c_t(t)=-\frac{-\zeta+\sqrt{\zeta^2-1}}{2\sqrt{\zeta^2-1}}exp[-(\zeta+\sqrt{\zeta^2-1})t/T]+\frac{-\zeta-\sqrt{\zeta^2-1}}{2\sqrt{\zeta^2-1}}exp[-(\zeta-\sqrt{\zeta^2-1})t/T]
 $$
 
+欠阻尼二阶系统的动态性能指标
+
+上升时间$t\__r=\frac{\pi-\beta}{w\_d_}=_\frac{\pi-\beta}{w\_n\sqrt{1-\zeta^2}_}$

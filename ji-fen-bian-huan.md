@@ -12,11 +12,11 @@ description: 积分变换学习
 
 傅立叶变换要从傅里叶积分（级数）入手
 
-设$$f(t)$$在$$(-\infty,+\infty)$$内定义的实值函数，它在任意区间$$[-l,l]$$内满足狄里克雷(Dirichlet)条件:\
+设$f(t)$在$(-\infty,+\infty)$内定义的实值函数，它在任意区间$[-l,l]$内满足狄里克雷(Dirichlet)条件:\
 \* 连续或至多有有限个第一类间断点\
 \* 至多有有限个极值
 
-则$$f(t)$$在$$(-l,l)$$内的连续点$$t$$可展开成傅里叶级数:
+则$f(t)$在$(-l,l)$内的连续点$t$可展开成傅里叶级数:
 
 $$
 f\left( t\right) =\dfrac{a_{0}}{2}+\sum ^{\infty }_{n=1}\left( a_{n}cos\dfrac{n\pi t}{l}+b_{n}\sin \dfrac{n\pi t}{l}\right)

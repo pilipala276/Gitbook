@@ -64,6 +64,8 @@ $$
 
 ### 二阶系统的动态性能指标
 
+<mark style="color:red;background-color:purple;">**重要章节！！！重要章节！！！重要章节！！！**</mark>
+
 若自动控制系统的传递函数分母阶次为2，则称为二阶系统，假设其闭环传递函数为
 
 $$
@@ -76,3 +78,8 @@ $$
 C(s)=\frac{1}{s}-\frac{s+2\zeta w_n}{s^2+2\zeta w_ns+w_n^2} \\ c_ss(t)=1 \\ c_t(t)=\mathscr{L}^{-1}[-\frac{s+2\zeta w_n}{s^2+2\zeta w_ns+w_n^2}]
 $$
 
+当$\zeta$取不同的值时
+
+$$
+\zeta=0,c_t=-cosw_nt \\ 0<\zeta<1,c_t(t)=-\frac{1}{\sqrt{1-\zeta^2}}e^{-\zeta }
+$$

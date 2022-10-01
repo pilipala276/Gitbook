@@ -16,7 +16,7 @@ description: 自动控制原理学习
 
 <mark style="color:red;background-color:purple;">**重要章节！！！重要章节！！！重要章节！！！**</mark>
 
-传递函数离不开[拉氏变换](<README (1).md#la-pu-la-si-bian-huan>)
+传递函数离不开[拉氏变换](ji-fen-bian-huan-xue-xi.md#la-pu-la-si-bian-huan)
 
 主要讲述了电路的传递函数：比例环节，积分环节，惯性环节，振荡环节，微分环节，延迟环节
 
